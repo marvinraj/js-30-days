@@ -17,7 +17,7 @@
 // ++num, num++, --num, num--
 
 // 2.5 - ternary operators
-// look thru this later
+// learn in day 4
 
 // 2.6 - operator precedence
 // look thru this later
