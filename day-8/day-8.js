@@ -57,6 +57,7 @@ if (true){
 
 
 // 3 - object
+// creating object and getting values
 const person = {
     firstName: "marvin",
     lastName: "raj",
@@ -64,10 +65,10 @@ const person = {
     country: "malaysia"
 }
 console.log(person)
+console.log(person.firstName) // getting values from object
+console.log(person["firstName"]) // getting values from object
 
-console.log(person.firstName)
-console.log(person["firstName"])
-
+// creating object methods
 const human = {
     first_name: "pickle",
     last_name: "divs",
@@ -77,3 +78,18 @@ const human = {
     }
 }
 console.log(human.getFullName())
+
+// object methods
+const dog = {
+    dogName: "lucky",
+    dogAge: 35,
+    dogHome: "apartment",
+    dogAction: "bark"
+}
+const keys = Object.keys(dog) // gets the keys
+console.log(keys)
+const values = Object.values(dog) // gets the values
+console.log(values)
+const entries = Object.entries(dog) // gets the keys and values
+console.log(entries)
+console.log(dog.hasOwnProperty("dogName")) // check if the object has the key
