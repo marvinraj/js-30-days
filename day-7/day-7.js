@@ -62,7 +62,7 @@ let squaredNum = (function(n) {
   })(10)
   
   console.log(squaredNum)
-
+  
 
 
 // 4 - arrow function
