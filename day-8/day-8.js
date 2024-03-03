@@ -1,6 +1,7 @@
 // scope
 
 // variables scope -- global or local
+// object
 
 // 1 - global scope
 let a = "apple"
