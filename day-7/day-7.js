@@ -1,7 +1,7 @@
 // functions !!!
 
 /* 
-ways to create function
+ways to create function :
 1. declaration function
 2. expression function
 3. anonymous function
